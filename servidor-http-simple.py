@@ -16,7 +16,7 @@ import socket
 # let's use one above 1024
 
 mySocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-mySocket.bind(('127.0.0.1', 1234))
+mySocket.bind(('localhost', 1234))
 
 # Queue a maximum of 5 TCP connection requests
 
